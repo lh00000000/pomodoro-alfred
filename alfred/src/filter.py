@@ -30,6 +30,7 @@ def main(wf):
 def all_items():
     return [
         dict(title='pomo-start', description='Start a pomodoro', arg=START_ARG),
+        dict(title='pomo-selfcontrol-start', description='Start a pomodoro w selfcontrol', arg=START_SELFCONTROL_ARG),
         dict(title='pomo-stop', description='Stop a pomodoro', arg=STOP_ARG),
         dict(title='pomo-break', description='Start a break', arg=BREAK_ARG),
     ]
